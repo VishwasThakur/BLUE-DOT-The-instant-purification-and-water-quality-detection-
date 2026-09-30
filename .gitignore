@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+*.env
+!.env.example
+
+# Build files
+dist/
+build/
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDE & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Extra nested AIVault folder
+AIVault/

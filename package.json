@@ -1,0 +1,12 @@
+{
+  "name": "aivault",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "cd backend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
+  "dependencies": {
+    "cloudinary": "^2.11.0"
+  }
+}
